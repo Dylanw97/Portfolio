@@ -84,3 +84,17 @@ footer {
 #about, #projects, #contact {
     min-height: 80vh;
 }
+
+/* Apply this to each section that the header links point to */
+section {
+    padding: 80px 20px 20px 20px; /* Adjust the top padding to be at least as large as the header height */
+    margin-top: -60px; /* Negative margin equal to the header height */
+    position: relative;
+}
+
+/* Alternatively, you can target specific sections if you don't want this applied globally */
+#about, #projects, #contact {
+    padding-top: 80px; /* Ensure this matches the header height plus some additional space */
+    margin-top: -60px; /* Pull the section up to compensate for the extra padding */
+    position: relative;
+}
