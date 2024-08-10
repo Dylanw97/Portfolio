@@ -94,7 +94,7 @@ section {
 
 /* Alternatively, you can target specific sections if you don't want this applied globally */
 #about, #projects, #contact {
-    padding-top: 80px; /* Ensure this matches the header height plus some additional space */
+    padding-top: 150px; /* Ensure this matches the header height plus some additional space */
     margin-top: -60px; /* Pull the section up to compensate for the extra padding */
     position: relative;
 }
