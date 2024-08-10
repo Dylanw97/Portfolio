@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    padding-top: 70px; /* Adjust this to match the exact height of the header */
+    padding-top: 100px; /* Adjust this to match the exact height of the header */
 }
 
 /* Header settings */
